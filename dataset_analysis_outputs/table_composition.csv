@@ -1,12 +1,12 @@
 Family,Source(s),T1 subtype,T1 n,T2 subtype,T2 n,T3 (fab.),Family total
-Surveillance (CCTV),"ucf_crime, virat",Time of day,30,Swap object,28,45,268
-,,Weather,30,Remove person,26,,
-,,Lighting,30,Remove signage,26,,
+Surveillance (CCTV),"ucf_crime, virat",Time of day,30,Swap object,28,45,264
+,,Weather,28,Remove person,26,,
+,,Lighting,29,Remove signage,25,,
 ,,Crowd density,30,Add person,23,,
-Dashcam,bdd100k,Time of day,29,Remove sign,30,45,256
-,,Weather,26,Traffic-light color,28,,
+Dashcam,bdd100k,Time of day,29,Remove sign,30,45,255
+,,Weather,27,Traffic-light color,27,,
 ,,Lighting,29,Remove vehicle,27,,
-,,Crowd density,28,Add hazard,14,,
+,,Crowd density,27,Add hazard,14,,
 Consumer photos,casia,Time of day,30,Add object,29,45,266
 ,,Weather,30,Remove damage,28,,
 ,,Lighting,30,Swap object,25,,
