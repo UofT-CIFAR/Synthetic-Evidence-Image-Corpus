@@ -65,7 +65,7 @@ It is a **complement to**, not a replacement for, existing forensics benchmarks.
 Synthetic-Evidence-Image-Corpus/
 ├── Manipulated-Images/                      # T1/T2/T3 manipulated & fabricated images
 ├── Source-Images/                           # Authentic source frames / authentic controls
-├── image_corpus_manifest.csv              # Per-item metadata manifest (CSV)
+├── image_corpus_manifest.csv                # Per-item metadata manifest (CSV)
 ├── image_corpus_manifest.parquet            # Per-item metadata manifest (Parquet)
 ├── dataset_analysis.ipynb                   # Notebook: corpus statistics + benchmark analysis
 ├── dataset_analysis_outputs/                # Figures and tables produced by the notebook
@@ -166,7 +166,7 @@ subset = df[mask]
 
 ## Benchmark
 
-We evaluate publicly available image-manipulation detectors **zero-shot** on the full corpus using the [DetectZoo](https://github.com/) framework. Each detector scores every image once using its released weights and **default decision threshold**, with no fine-tuning. We report both threshold-free metrics (ROC-AUC, PR-AUC), which rank detectors independently of any operating point, and threshold-dependent metrics (accuracy, precision, recall, FPR) at each detector’s shipped default. The task is binary authentication over all 1,505 items.
+We evaluate publicly available image-manipulation detectors **zero-shot** on the full corpus using the [DetectZoo](https://github.com/sadjadeb/DetectZoo) framework. Each detector scores every image once using its released weights and **default decision threshold**, with no fine-tuning. We report both threshold-free metrics (ROC-AUC, PR-AUC), which rank detectors independently of any operating point, and threshold-dependent metrics (accuracy, precision, recall, FPR) at each detector’s shipped default. The task is binary authentication over all 1,505 items.
 
 | Detector | Acc. | Prec. | Rec. | FPR | ROC-AUC | PR-AUC |
 |---|---|---|---|---|---|---|
@@ -241,11 +241,6 @@ If you use this corpus, please cite the paper:
                Jamali, Nima and Mahdizadeh Sani, Matina and Zhang, Wentao and Deng, Yuntian and
                Grossman, Maura and Taranukhin, Maksym and Shwartz, Vered and
                Burkell, Jacquelyn and Eltis, Karen and Bagheri, Ebrahim},
-  <!-- booktitle = {Proceedings of the 35th ACM International Conference on Information and Knowledge Management (CIKM '26)},
-  year      = {2026},
-  address   = {Rome, Italy},
-  publisher = {ACM},
-  doi       = {10.1145/XXXXXXX.XXXXXXX} -->
 }
 ```
 
