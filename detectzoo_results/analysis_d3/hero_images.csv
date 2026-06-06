@@ -1,0 +1,9 @@
+file,class,true_label,family,tier,variant,score,flagged_ai,correct
+item_00103_cctv_T2_hero_Photoshop.png,fake,1,cctv,T2,Photoshop,0.0436094999313354,False,False
+item_00338_dashcam_T2_hero_ChatGPT.png,fake,1,dashcam,T2,ChatGPT,0.0758795291185379,False,False
+item_00320_dashcam_T2_hero_Photoshop.png,fake,1,dashcam,T2,Photoshop,0.1762846112251281,False,False
+item_00083_cctv_T2_hero_Photoshop.png,fake,1,cctv,T2,Photoshop,0.4734153151512146,True,True
+item_00561_phone_T2_hero_ChatGPT.png,fake,1,phone,T2,ChatGPT,0.5598753690719604,True,True
+item_00322_dashcam_T2_hero_ChatGPT.png,fake,1,dashcam,T2,ChatGPT,0.7982577681541443,True,True
+item_00339_dashcam_T2_hero_ChatGPT.png,fake,1,dashcam,T2,ChatGPT,0.9970976114273072,True,True
+item_00328_dashcam_T2_hero_ChatGPT.png,fake,1,dashcam,T2,ChatGPT,0.9997368454933168,True,True
